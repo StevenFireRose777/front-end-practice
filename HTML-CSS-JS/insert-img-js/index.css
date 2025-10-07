@@ -9,10 +9,21 @@ body{
 
 button{
   margin-top: 10px;
+  padding: 10px 10px;
 }
 
+h1{
+  text-align: center;
+}
 #my-img{
-  display: flex;
+  display: block;
   height: 500px;
-
+  margin: 0 auto;
+  object-fit: cover;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
