@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+*{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.Timer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.start-button, .pause-button{
+  margin-top: 20px;
+}
