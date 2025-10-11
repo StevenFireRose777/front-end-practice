@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+  font-size: 50px;
+  font-weight: bold;
+}
+.header-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.input-container{
+  display: block;
+}
+#button-dice{
+  margin-top: 100px;
+}
+
+#bot-input{
+  margin-left: 50px;
+}
+
+#player-input{
+  margin-right: 50px;
+}
+
+.bot-head{
+  margin-left: 10px;
+}
+.player-head{
+  margin-right: 10px;
+}
+.name-container{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
