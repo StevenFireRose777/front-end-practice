@@ -1,6 +1,6 @@
 let timeRunning = false;
 let intervalID = null;
-let focusTime = 25; // mins
+let focusTime = 1; // mins
 let timeLeft = focusTime * 60; // total seconds
 
 function updateDisplay(timeLeft){
